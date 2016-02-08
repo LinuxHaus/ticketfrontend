@@ -1,0 +1,37 @@
+Featureliste/Wunschliste fuer ein Ticketfrontendsystem
+- Welches Ticketsystem als Basis
+  - RT
+  - OTRS
+- Freie Software, GPLv3 oder AGPLv3, was genau?
+- Liveupdates wenn andere Nutzer Dinge aendern
+  - im normalen Ticketsystem
+  - in derselben Ansicht auf einem anderen Rechner/Browser/Tab
+  - in anderen Ansichten, z.B. Gantansicht
+  -> ein Fenster mit Gant-Ansicht, ein Fenster mit KanBan-Ansicht sind (fast) synchron
+- Kanban-Ansichten, frei konfigurierbar
+  - Spalten, z.B. nach Ticketstatus
+  - Einsortierung Tickets in Spalten
+  - Sortierung in Spalten festsetzbar, z.B. Prioritaet
+  - Farbe der Karte aus Ticketinformationen festsetzbar, z.B. nach Ticketbesitzer, Gruppe oder Bereich
+  - Aktionen auf Tickets bei z.B. Verschiebung
+    - Statusfortschreibung
+      - 'Progress %' uebersetzt sich (auch) in den Ticketstatus
+      - neu, offen, in Bearbeitung, geloest, ....
+    - Abhaengigkeiten aufbauen durch nebeneinanderhalten
+      - rechts/hinter: das schon da liegende Ticket ist Voraussetzung fuer das gehaltene Ticket
+      - links/davor: das schon da liegende Ticket kann erst behandelt werden, wenn das gehaltene bearbeitet ist
+    - Merge durch uebereinanderhalten
+- Gant-Ansichten
+  - frei definierbare Filter, z.B.
+    - Aufgebaut auf Basis eines Tickets und dessen Abhaengigkeiten
+    - Aufgebaut auf Basis einer Person
+    - Aufgebaut auf Basis einer Gruppe (Mandant, Kunde)
+  - Abhaengigkeiten koennen hier geloescht werden, es kann mehrere Abhaengigkeiten geben
+- Ticketmodifikation in beiden Ansichten
+  - geschaetzte Zeitdauer
+  - Subtickets neu anlegen die als Voraussetzung genommen werden
+- Frei definierbare Aktionsfelder, z.B.
+  - Personen-, Gruppen-, Bereichsfeld, Ticket darauf ziehen ordnet das der Person, Gruppe oder dem Bereich zu
+    -> Modifikation von Ticketeigenschaften
+  - Klick auf das Feld oeffnet die entsprechende Ansicht (Gant, KanBan) fuer diese Person, Gruppe oder den Bereich
+    -> Neue Ansicht mit anderen Foltern
