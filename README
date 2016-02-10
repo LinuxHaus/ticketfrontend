@@ -6,8 +6,8 @@ Featureliste/Wunschliste fuer ein Ticketfrontendsystem
 - Liveupdates wenn andere Nutzer Dinge aendern
   - im normalen Ticketsystem
   - in derselben Ansicht auf einem anderen Rechner/Browser/Tab
-  - in anderen Ansichten, z.B. Gantansicht
-  -> ein Fenster mit Gant-Ansicht, ein Fenster mit KanBan-Ansicht sind (fast) synchron
+  - in anderen Ansichten, z.B. Gantt-Ansicht
+  -> ein Fenster mit Gantt-Ansicht, ein Fenster mit KanBan-Ansicht sind (fast) synchron
 - Kanban-Ansichten, frei konfigurierbar
   - Spalten, z.B. nach Ticketstatus
   - Einsortierung Tickets in Spalten
@@ -21,7 +21,7 @@ Featureliste/Wunschliste fuer ein Ticketfrontendsystem
       - rechts/hinter: das schon da liegende Ticket ist Voraussetzung fuer das gehaltene Ticket
       - links/davor: das schon da liegende Ticket kann erst behandelt werden, wenn das gehaltene bearbeitet ist
     - Merge durch uebereinanderhalten
-- Gant-Ansichten
+- Gantt-Ansichten
   - frei definierbare Filter, z.B.
     - Aufgebaut auf Basis eines Tickets und dessen Abhaengigkeiten
     - Aufgebaut auf Basis einer Person
@@ -33,7 +33,7 @@ Featureliste/Wunschliste fuer ein Ticketfrontendsystem
 - Frei definierbare Aktionsfelder, z.B.
   - Personen-, Gruppen-, Bereichsfeld, Ticket darauf ziehen ordnet das der Person, Gruppe oder dem Bereich zu
     -> Modifikation von Ticketeigenschaften
-  - Klick auf das Feld oeffnet die entsprechende Ansicht (Gant, KanBan) fuer diese Person, Gruppe oder den Bereich
+  - Klick auf das Feld oeffnet die entsprechende Ansicht (Gantt, KanBan) fuer diese Person, Gruppe oder den Bereich
     -> Neue Ansicht mit anderen Foltern
 
 
