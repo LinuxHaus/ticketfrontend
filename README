@@ -11,7 +11,7 @@ Featureliste/Wunschliste fuer ein Ticketfrontendsystem
 - Kanban-Ansichten, frei konfigurierbar
   - Spalten, z.B. nach Ticketstatus
   - Einsortierung Tickets in Spalten
-  - Sortierung in Spalten festsetzbar, z.B. Prioritaet
+  - Sortierung innerhalb Spalten festsetzbar, z.B. Prioritaet
   - Farbe der Karte aus Ticketinformationen festsetzbar, z.B. nach Ticketbesitzer, Gruppe oder Bereich
   - Aktionen auf Tickets bei z.B. Verschiebung
     - Statusfortschreibung
@@ -21,12 +21,21 @@ Featureliste/Wunschliste fuer ein Ticketfrontendsystem
       - rechts/hinter: das schon da liegende Ticket ist Voraussetzung fuer das gehaltene Ticket
       - links/davor: das schon da liegende Ticket kann erst behandelt werden, wenn das gehaltene bearbeitet ist
     - Merge durch uebereinanderhalten
+    - Prioritaeten des Tickets aendern durch vertikales Verschieben (bei Sortierung nach Prioritaet)
 - Gantt-Ansichten
   - frei definierbare Filter, z.B.
     - Aufgebaut auf Basis eines Tickets und dessen Abhaengigkeiten
     - Aufgebaut auf Basis einer Person
     - Aufgebaut auf Basis einer Gruppe (Mandant, Kunde)
   - Abhaengigkeiten koennen hier geloescht werden, es kann mehrere Abhaengigkeiten geben
+  - Aktionen auf Tickets bei z.B. Verschiebung
+    - Abhaengigkeiten aufbauen durch nebeneinanderhalten
+      - rechts/hinter: das schon da liegende Ticket ist Voraussetzung fuer das gehaltene Ticket
+      - links/davor: das schon da liegende Ticket kann erst behandelt werden, wenn das gehaltene bearbeitet ist
+    - Merge durch uebereinanderhalten
+    - Prioritaeten des Tickets aendern durch vertikales Verschieben, macht bei Personen/Gruppenansichten Sinn
+    - nicht voneinander abhaengige Tickets werden nach der geschaetzten Zeitdauer hintereinander gehaengt, sortiert nach Prioritaet
+      - Dinge die verschiedenen Personen zugeordnet sind duerfen auch parallel stehen
 - Ticketmodifikation in beiden Ansichten
   - geschaetzte Zeitdauer
   - Subtickets neu anlegen die als Voraussetzung genommen werden
